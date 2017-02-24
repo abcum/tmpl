@@ -33,6 +33,7 @@ func main() {
 
 }
 
+// Tmpl represents a template compiler.
 type Tmpl struct {
 	// Files to be processed.
 	Paths []string
