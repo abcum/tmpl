@@ -9,6 +9,8 @@ An command line tool for parsing and generating template files for Go (Golang).
 - Generate files from templates
 - Useful for go:generate commands
 - Accepts data as json or in a file
+- Templates are processed and compiled
+- Process and compile multiple templates at once
 
 #### Installation
 
