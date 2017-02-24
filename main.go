@@ -109,7 +109,6 @@ func (t *Tmpl) compile(path string) error {
 	if os.IsNotExist(err) {
 		return fmt.Errorf("File %s not found", path)
 	} else if err != nil {
-		return fmt.Errorf("Problem 1 %s", err)
 		return err
 	}
 
@@ -118,7 +117,6 @@ func (t *Tmpl) compile(path string) error {
 	if os.IsNotExist(err) {
 		return fmt.Errorf("File %s not found", path)
 	} else if err != nil {
-		return fmt.Errorf("Problem 2 %s", err)
 		return err
 	}
 
