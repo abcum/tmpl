@@ -122,7 +122,7 @@ func (t *Tmpl) compile(path string) error {
 	}
 
 	// Parse file into template.
-	tpl, err := template.New("main").Funcs(FuncMap).Parse(string(src))
+	tpl, err := template.New("main").Funcs(functions).Parse(string(src))
 	if err != nil {
 		return err
 	}
@@ -164,7 +164,7 @@ func (t *Tmpl) compile(path string) error {
 
 }
 
-var FuncMap = template.FuncMap{
+var functions = template.FuncMap{
 	"upcase":   strings.ToUpper,
 	"downcase": strings.ToLower,
 	"camel":    camelCase,
