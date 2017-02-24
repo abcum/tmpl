@@ -1,6 +1,6 @@
 # tmpl
 
-An command line tool for parsing and generating template files for Go (Golang).
+A command line tool for parsing and generating template files for Go (Golang).
 
 [![](https://img.shields.io/circleci/token/acab5a4d494bbdf0c97c4636063cc3d5d601bdac/project/abcum/tmpl/master.svg?style=flat-square)](https://circleci.com/gh/abcum/tmpl) [![](https://img.shields.io/badge/status-alpha-ff00bb.svg?style=flat-square)](https://github.com/abcum/tmpl) [![](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/github.com/abcum/tmpl) [![](https://goreportcard.com/badge/github.com/abcum/tmpl?style=flat-square)](https://goreportcard.com/report/github.com/abcum/tmpl) [![](https://img.shields.io/coveralls/abcum/tmpl/master.svg?style=flat-square)](https://coveralls.io/github/abcum/tmpl?branch=master) [![](https://img.shields.io/badge/license-Apache_License_2.0-00bfff.svg?style=flat-square)](https://github.com/abcum/tmpl) 
 
